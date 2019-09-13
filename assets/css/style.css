@@ -1,5 +1,82 @@
+body {
+    background-image: url(https://1.bp.blogspot.com/-71pO0Yzj5S4/V12zrsWXqkI/AAAAAAAAPME/EozxWe7kVq8u1ZHdu1pq92zioTcm50HPgCLcB/s1600/digging%2Bin%2Bthe%2Bdirt%2Bpic%2Bfinal.jpg)
+}
+
 .crystalImg {
     height: 150px;
     width: 150px;
     margin-right: 20px
 }
+
+header {
+    background:gray;
+    color: royalblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 350px;
+    border-radius: 25px;
+}
+.instructions {
+    background: grey;
+    color:lightblue;
+    text-align: center;
+    font-family: cursive;
+    line-height: 50px;
+    border-radius: 25px;
+    display: block;
+    width: 75%;
+    margin: auto;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#crystals {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#randLeft {
+    background:grey;
+    color: darkviolet;
+    height: 200px;
+    width: 250px;
+    border-radius: 60px;
+    float: left;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 40px;
+
+
+}
+
+#scoreRight {
+    background:grey;
+    color: darkviolet;
+    height: 200px;
+    width: 250px;
+    border-radius: 60px;
+    float: right;
+    font-size: xx-large;
+    text-align: center;
+    margin-right: 40px;
+}
+
+#winLoss{
+    background:grey;
+    color:royalblue;
+    height: 150px;
+    width: 200px;
+    margin: auto;
+    text-align: auto;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 1px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+

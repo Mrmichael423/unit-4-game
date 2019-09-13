@@ -10,30 +10,33 @@
 </head>
 <body>
     <header><h1>Crystals Collector!</h1></header>
-    <div>
+    <div class="instructions">
         <h2>Instructions:</h2>
         <P>You will be given a random number at the start of each game</P>
         <p>There are four crystals for you to click on. Each crystal is equal to a specific number value to add to you're total score. Each crystals value will be hidden from you until you click on the crystal</p>
-        <p>You win the game by matching your total score to to the random number. You will loose if you go above the random number!<p>
-        <p>Each time the game starts, the crystals will chang value.</p>
+        <p>You win the game by matching your total score to to the random number. You will lose if you go above the random number!<p>
+        <p>Each time the game starts, the crystals will change value.</p>
     </div>
 
-    <div><h3>Number to Guess: <Span id= "randomScore"></Span></h3> </div>
-
-    <div>
-        <p>Wins: <Span id = "wins"></Span></p>
-        <p>Losses: <span id = "losses"></span></p>
+    <div id= "randLeft">
+        <h3>Number to Guess:</h3>   
+        <Span id= "randomScore"></Span> 
     </div>
-
+        
+    <div id ="scoreRight"><h3>Your Score:</h3>
+        <span id= "yourScore"></span>
+    </div>
+    
     <div id="crystals">
         
     </div>
-
-
-    <div><h3>Your total score is:</h3></div>
-
-    <div id ="yourScore"></div>
-
+    
+    
+    
+    <div id = "winLoss">
+        <p>Wins: <Span id = "wins"></Span></p>
+        <p>Losses: <span id = "losses"></span></p>
+    </div>
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

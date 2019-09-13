@@ -40,7 +40,7 @@ $("#crystals").on("click", ".crystalImg", function() {
         reset()
         } else if (userScore > randomScore) {
             losses++;
-            alert("YOU LOOSE!");
+            alert("YOU LOSE!");
             reset()
 
         }
